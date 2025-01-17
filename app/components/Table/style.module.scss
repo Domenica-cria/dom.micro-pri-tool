@@ -1,0 +1,26 @@
+@use '../../styles/constants/_colors' as COLORS;
+
+.wrapper{
+    border: 2px solid COLORS.$smoky-black;
+    width: 100%;
+    display: flex;
+    border-radius: 20px;
+    overflow: hidden;
+    aspect-ratio: 2/1;
+    .table{
+        border: 2px solid red;
+        width: 90%;
+    }
+    .container_btn{
+        width: 10%;
+        text-align: center;
+        background-color: COLORS.$mindaro;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        .btn{
+            color: COLORS.$smoky-black;
+            font-weight: bold;
+        }
+    }
+}

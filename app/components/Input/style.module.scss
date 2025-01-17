@@ -1,0 +1,27 @@
+@use '../../styles/constants/_colors' as COLORS;
+
+.wrapper{
+    background-color: COLORS.$smoky-black;
+    color: COLORS.$mindaro;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    border-radius: 20px;
+    overflow: hidden;
+    text-align: center;
+    border: 2px solid COLORS.$smoky-black;
+    margin-bottom: 2rem;
+    .input{
+        color: COLORS.$mindaro;
+        padding: 1rem;
+    }
+    .btn{
+        background-color: COLORS.$mindaro;
+        color: COLORS.$smoky-black;
+        font-weight: bold;
+        text-transform: uppercase;
+        padding: .8rem;
+        display: flex;
+        justify-content: center;
+    }
+}

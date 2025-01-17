@@ -1,0 +1,17 @@
+@use '../../styles/constants/_colors' as COLORS;
+
+.wrapper{
+    border: 2px solid COLORS.$smoky-black;
+    width: 100%;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    .header{
+        text-align: center;
+        background-color: COLORS.$mindaro;
+        padding: .8rem;
+        font-weight: bold;
+        color: COLORS.$smoky-black;
+    }
+}

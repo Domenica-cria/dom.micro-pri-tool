@@ -1,0 +1,20 @@
+@use '../../styles/constants/_colors' as COLORS;
+
+.wrapper{
+    border: 2px solid red;
+    padding: 2rem 1rem;
+    display: flex;
+    align-items: center;
+    .container_name{
+        border: 2px solid red;
+        flex: 1;
+        p{
+            color: COLORS.$smoky-black;
+            font-weight: bold;
+        }
+    }
+    .container_input{
+        border: 2px solid red;
+        flex: 2;
+    }
+}

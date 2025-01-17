@@ -1,0 +1,10 @@
+@use './constants/_colors' as COLORS;
+
+.wrapper{
+    border: 2px solid red;
+    width: 100vw;
+    height: 100vh;
+    padding: 2rem;
+    background-color: COLORS.$old-lace;
+    display: flex;
+}
