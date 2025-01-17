@@ -9,7 +9,20 @@ const TableItem = ({task}) => {
             <div className={taskStyle.container_name}>
                 <p>{task.task}</p>
             </div>
-            <div className={taskStyle.container_inputs}></div>
+            <div className={taskStyle.list_inputs}>
+                <div className={taskStyle.container_input}>
+                    <label>Impact</label>
+                    <input type='number'/>
+                </div>
+                <div className={taskStyle.container_input}>
+                    <label>Confidence</label>
+                    <input type='number'/>
+                </div>
+                <div className={taskStyle.container_input}>
+                    <label>Effort</label>
+                    <input type='number'/>
+                </div>
+            </div>
         </div>
     )
 }

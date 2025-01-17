@@ -8,11 +8,13 @@
     overflow: hidden;
     aspect-ratio: 2/1;
     .table{
-        border: 2px solid red;
-        width: 90%;
+        //border: 2px solid red;
+        width: 92%;
+        overflow: auto;
+        background-color: COLORS.$old-lace;
     }
     .container_btn{
-        width: 10%;
+        width: 8%;
         text-align: center;
         background-color: COLORS.$mindaro;
         display: flex;
